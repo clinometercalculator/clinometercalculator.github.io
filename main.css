@@ -9,14 +9,14 @@ h1
     text-align: center;
     color: #FFFFF0;
     font-size: 5rem;
-    margin-top: 7.5rem;
+    margin-top: 2.5%;
 }
 
 .logo
 {
-  margin-left: 85%;
-  margin-top: -12.5%;
-  position: absolute;
+  margin-top: 5%;
+  margin-left: 45%;
+  position: relative;
   width: 12.5rem;
   height: 12.5rem;
   border-radius: 10rem;
