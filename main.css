@@ -14,9 +14,10 @@ h1
 
 .logo
 {
-  margin-top: 2.5%;
-  margin-left: 45%;
-  width: 15rem;
-  height: 15rem;
+  margin-left: 85%;
+  margin-top: -12.5%;
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
   border-radius: 10rem;
 }
