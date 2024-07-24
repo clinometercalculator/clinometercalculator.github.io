@@ -5,8 +5,8 @@
   border-radius: 0.5rem;
   padding: 1rem;
   margin: 2.5rem;
-  margin-top: 12.5%;
-  margin-left: 9.5%;
+  margin-top: 5%;
+  margin-left: 30%;
 }
 
 input
@@ -78,8 +78,7 @@ input
   border: 0.15rem solid #FFC0CB;
   border-radius: 0.5rem;
   padding: 1rem;
-  margin-left: 60%;
-  margin-top: -17%;
+  margin-left: 35%;
 }
 
 .instructions h2
@@ -96,7 +95,7 @@ input
 
 .solution
 {
-  margin-top: 3.5rem;
+  margin-top: 0.5%;
   text-align: center;
   color: #FFFAF0;
 }
