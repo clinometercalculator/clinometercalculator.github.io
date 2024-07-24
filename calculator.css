@@ -148,12 +148,3 @@ input
 .homebutton:focus {
   box-shadow: rgba(0, 0, 0, .5) 0 0 0 0.188rem;
 }
-
-.logo
-{
-  margin-top: 2.5%;
-  margin-left: 45%;
-  width: 15rem;
-  height: 15rem;
-  border-radius: 10rem;
-}

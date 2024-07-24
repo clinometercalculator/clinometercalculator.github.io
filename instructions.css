@@ -1,0 +1,11 @@
+.textbox
+{
+  width: 75%;
+  border: 0.15rem solid #FFF0F5;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 2.5rem;
+  margin-left: 12.5%;
+  color: #cfbec4;
+}
+
