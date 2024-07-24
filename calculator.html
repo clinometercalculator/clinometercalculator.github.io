@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <html lang="en">
 
@@ -7,16 +7,18 @@
     <title>Clinometer Calculator</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./calculator.css">
+    <script src="calculator.js"></script>
 </head>
 
 <body>
+    <a href="./index.html"><button class="homebutton" role="button">HOME</button></a>
     <h1>Clinometer Calculator</h1>
     <div class="inputfield">
-        <input type="number" name="dheight" placeholder="Device Height"/>
+        <input type="number" name="dheight" id="dheight" placeholder="Device Height"/>
         <br>
-        <input type="number" name="distance" placeholder="Distance"/> <button class="calcbutton" role="button">Calculate!</button>
+        <input type="number" name="distance" id="distance" placeholder="Distance"/> <button class="calcbutton" role="button" onclick="calculateHeight()">Calculate!</button>
         <br>
-        <input type="number" name="aoe" placeholder="Angle of Elevation"/>
+        <input type="number" name="aoe" id="aoe" placeholder="Angle of Elevation"/>
     </div>
     <div class="instructions">
         <h2> How to Use </h2>
@@ -28,8 +30,10 @@
             <b>Angle of Elevation:</b> When you have your clinometers prepared and built as instructed, one will require you to calculate the angle of elevation,
             and the other will directly measure the angle of elevation. For both devices, the angle input will require you to enter the angle of 
             elevation.
+            <br><br>
         </p>
     </div>
+    <div class="solution" id="solution"></div>
 </body>
 
 </html>
