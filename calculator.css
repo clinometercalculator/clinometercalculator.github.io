@@ -5,8 +5,8 @@
   border-radius: 0.5rem;
   padding: 1rem;
   margin: 2.5rem;
-  margin-top: 8%;
-  margin-left: 2.5%;
+  margin-top: 12.5%;
+  margin-left: 9.5%;
 }
 
 input
@@ -21,6 +21,7 @@ input
   color: #2C3E50;
   font-size: 0.813rem;
   margin-top:1rem;
+  display: inline-block;
 }
 
 .calcbutton
@@ -77,7 +78,7 @@ input
   border: 0.15rem solid #FFC0CB;
   border-radius: 0.5rem;
   padding: 1rem;
-  margin-left: 65%;
+  margin-left: 60%;
   margin-top: -17%;
 }
 
